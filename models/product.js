@@ -18,6 +18,12 @@ const productSchema = mongoose.Schema({
       required: true,
     },
   ],
+  model: 
+    {
+      type: String,
+      default:'',
+    },
+  
   quantity: {
     type: Number,
     required: true,

@@ -26,7 +26,7 @@ app.use(authRouter);
 app.use(adminRouter);
 app.use(swapRouter);
 app.use(productRouter);
-app.use(userRouter);
+app.use(userRouter); 
 
 // Connections
 mongoose
